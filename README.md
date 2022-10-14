@@ -1,1 +1,1 @@
-# Trabalho 2 de Programação Orientada a Objeto II - JDBC - SQL
+# Trabalho 2 de Programação Orientada a Objetos II - JDBC - SQL
