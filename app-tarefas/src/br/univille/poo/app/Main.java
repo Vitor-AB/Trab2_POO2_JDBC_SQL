@@ -14,7 +14,7 @@ public class Main {
         //DeletarTabela.deletarTabela();
 
         //Tarefa tarefa = new Tarefa();
-        //tarefa.setDescricao("Prim tarefa");
+        //tarefa.setDescricao("Seg tarefa");
 
 /*
         CriarTarefa criarTarefa = new CriarTarefa();
@@ -23,8 +23,9 @@ public class Main {
         }catch (Exception e){
             e.printStackTrace();
         }
+*/
 
- */
+
 
         ListarTarefas listarTarefas = new ListarTarefas();
         for(Tarefa t : listarTarefas.obterTodos()){

@@ -20,7 +20,7 @@ public class ConcluirTarefa {
             throw  new Exception("A tarefa "+tarefa.getId()+" já está concluída.");
         }
         tarefa.setConcluido(true);
-        dao.atualizar(tarefa);
+        dao.atualizar(tarefa, tarefa.isConcluido());
     }
 
 }

@@ -5,6 +5,7 @@ public class Tarefa {
     private int id;
     private String descricao;
     private boolean concluido;
+    private int prioridade;
 
     public int getPrioridade() {
         return prioridade;
@@ -13,8 +14,6 @@ public class Tarefa {
     public void setPrioridade(int prioridade) {
         this.prioridade = prioridade;
     }
-
-    private int prioridade;
 
     public int getId() {
         return id;
